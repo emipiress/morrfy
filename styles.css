@@ -1,0 +1,78 @@
+body {
+    color: #C3C3C3;
+    background: #070707;
+    margin: 0px;
+    font-family: 'Victor Mono';
+    margin-bottom: 50px;
+}
+
+header {
+    border-bottom: dashed 2px #722E2E;
+    padding: 20px;
+    font-size: 32px;
+    color: #a52d2d;
+    font-family: 'Victor Mono';
+    font-weight: 700;
+}
+
+.chamada {
+    border-top: dashed 2px #722E2E;
+    background: #121212;
+    border-bottom: dashed 2px #722E2E;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    background-color: rgb(110, 52, 52);
+    font-family: 'Victor Mono';
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+  
+p {
+    font-size: 20px;
+}
+
+b {
+    color: white;
+}
+
+.categoriamusica {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    justify-content: justify;
+}
+
+.categoriamusica img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoriamusica img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.categoria h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
